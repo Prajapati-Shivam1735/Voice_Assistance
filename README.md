@@ -23,7 +23,6 @@ Perfect for beginners learning **Python automation** and **speech synthesis**.
 - [🧠 How It Works](#-how-it-works)
 - [🚧 Troubleshooting](#-troubleshooting)
 - [🚀 Future Improvements](#-future-improvements)
-- [📜 License](#-license)
 - [👨‍💻 Author](#-author)
 
 ---
@@ -126,3 +125,35 @@ Example interaction:
 3. Uses os.system('echo "text" | festival --tts') for speech output.
 4. Uses webbrowser.open() for searches.
 5. Runs entirely offline.
+
+## 🚧 Troubleshooting
+
+|Problem|   Possible Fix|
+|:---:|:---:|
+|`aplay: not found`|Install audio playback utility -> `sudo apt install alsa-utils -y`|
+|`Festival voice not clear`| Try installing `pulseaudio` or different Festival voice packages|
+|`Permission denied`| Run command with `sudo` or check file permissions|
+|`Command not responding`| Restart terminal or re-run virtual environment|
+
+## 🚀 Future Improvements
+
+- Add speech recognition (using speech_recognition or vosk)
+- Integrate OpenWeather API for weather updates
+- Add custom wake word (like “Hey Python”)
+- GUI version using Tkinter or PyQt
+- Add text-based chat log feature
+
+## 👨‍💻 Author
+Shivam Prajapati
+
+💼 GitHub:[ prajapati-shivam1735](https://github.com/prajapati-shivam1735)
+
+📧 Email: shivamprajapati1942@gmail.com
+
+🌐 Project Link:[ Voice Assistant on GitHub](https://github.com/Prajapati-Shivam1735/Voice_Assistance)
+
+
+
+
+
+
