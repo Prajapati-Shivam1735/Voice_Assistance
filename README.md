@@ -1,4 +1,4 @@
-# 🧠 Voice Assistant (Offline Python Festival Edition)
+# 🧠 Voice Assistant 
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Ubuntu-lightgrey?logo=ubuntu)](https://ubuntu.com/)
