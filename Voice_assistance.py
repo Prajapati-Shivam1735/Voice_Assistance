@@ -6,7 +6,10 @@ import sounddevice as sd
 import numpy as np
 
 # Initialize text-to-speech
-engine = pyttsx3.init()
+engine = pyttsx3.init(driverName='espeak')
+engine.setProperty('rate', 160)  # Speech rate
+engine.setProperty('volume',2.0)  # Volume level
+engine.setProperty('voice', 'english')  # Voice selection
 recognizer = sr.Recognizer()
 
 def speak(text):
