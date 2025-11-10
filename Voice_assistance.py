@@ -57,7 +57,7 @@ def process_command(command):
             speak(f"Searching the web for {query}")
             webbrowser.open(f"https://www.google.com/search?q={query}")
     
-    elif "exit" in command or "quit" in command:
+    elif "close" in command or "quit" in command:
         speak("Goodbye! Have a great day!")
         exit()
     
